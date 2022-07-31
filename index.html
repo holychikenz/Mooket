@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
-<title>Minimal sql.js-httpvfs demo</title>
-<script src="./dist/bundle.js"></script>
-<div>Hello World!</div>
+<title>Mooket</title>
+<script type="module">
+  import { load } from "./dist/sql-httpvfs.js"
+  window.loadDB = load;
+</script>
+<div>Cow say moo!</div>
